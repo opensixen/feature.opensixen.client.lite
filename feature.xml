@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="feature.opensixen.client.lite"
+      label="Lite"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.opensixen.client" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.core.client" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.base" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.core.common" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.core.p2" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.libs" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi"/>
+   </requires>
+
+   <plugin
+         id="org.opensixen.core.client.lite"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
